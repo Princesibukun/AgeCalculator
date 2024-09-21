@@ -1,0 +1,42 @@
+.age-result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Styling for Age Text */
+.age-result h4 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.6;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (min-width: 768px) {
+    .age-calculator-container {
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .age-calculator-container {
+        max-width: 600px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    input[type="date"], button {
+        font-size: 1.2rem;
+    }
+}
